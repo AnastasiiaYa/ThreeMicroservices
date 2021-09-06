@@ -21,7 +21,8 @@ public class Customer {
   }
   
   @Override
-  public String toString() {
+  public String toString() 
+  {
     return String.format(
         "id=%s, firstName='%s',middleName='%s', lastName='%s'",
         id, getFirstName(),getMiddleName() ,getLastName());
